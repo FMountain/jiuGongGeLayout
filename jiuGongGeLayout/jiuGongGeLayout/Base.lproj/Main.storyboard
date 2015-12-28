@@ -1,25 +1,92 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q6Z-3z-y5K" userLabel="add">
+                                <rect key="frame" x="20" y="30" width="50" height="50"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="50" id="4b4-B4-72H"/>
+                                    <constraint firstAttribute="height" constant="50" id="ePT-8e-a1Q"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="vLm-r0-8PH"/>
+                                    <constraint firstAttribute="width" constant="50" id="vqV-hL-SKn"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="add"/>
+                                <state key="disabled" image="add_disabled"/>
+                                <state key="highlighted" image="add_highlighted"/>
+                                <connections>
+                                    <action selector="add:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Fnq-d4-dn5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q7w-K5-gve" userLabel="remove">
+                                <rect key="frame" x="250" y="30" width="50" height="50"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Wi5-jZ-51R"/>
+                                    <constraint firstAttribute="width" constant="50" id="pBV-Z1-uTw"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="remove"/>
+                                <state key="disabled" image="remove_disabled"/>
+                                <state key="highlighted" image="remove_highlighted"/>
+                                <connections>
+                                    <action selector="remove" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZSg-Qh-ZKc"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="s1A-4p-HwH">
+                                <rect key="frame" x="0.0" y="110" width="320" height="300"/>
+                                <animations/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="keL-r8-t3J"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="q6Z-3z-y5K" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="10" id="IPj-y9-WZc"/>
+                            <constraint firstItem="q7w-K5-gve" firstAttribute="top" secondItem="q6Z-3z-y5K" secondAttribute="top" id="OM2-pT-r4R"/>
+                            <constraint firstItem="s1A-4p-HwH" firstAttribute="top" secondItem="q6Z-3z-y5K" secondAttribute="bottom" constant="30" id="Sbm-gE-gU7"/>
+                            <constraint firstAttribute="trailing" secondItem="s1A-4p-HwH" secondAttribute="trailing" id="WfN-mJ-SRU"/>
+                            <constraint firstItem="q7w-K5-gve" firstAttribute="bottom" secondItem="q6Z-3z-y5K" secondAttribute="bottom" id="XIa-DD-gGF"/>
+                            <constraint firstAttribute="trailing" secondItem="q7w-K5-gve" secondAttribute="trailing" constant="20" id="aNo-yw-GZe"/>
+                            <constraint firstItem="s1A-4p-HwH" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="fRS-h1-7Ar"/>
+                            <constraint firstItem="q6Z-3z-y5K" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="fuM-Ge-wj6"/>
+                        </constraints>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="addBtn" destination="q6Z-3z-y5K" id="Dmb-oi-0qb"/>
+                        <outlet property="removeBtn" destination="q7w-K5-gve" id="DcV-yI-dgW"/>
+                        <outlet property="shopsView" destination="s1A-4p-HwH" id="VoC-xy-X2C"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="267" y="339"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="add" width="128" height="128"/>
+        <image name="add_disabled" width="128" height="128"/>
+        <image name="add_highlighted" width="128" height="128"/>
+        <image name="remove" width="128" height="128"/>
+        <image name="remove_disabled" width="128" height="128"/>
+        <image name="remove_highlighted" width="128" height="128"/>
+    </resources>
 </document>

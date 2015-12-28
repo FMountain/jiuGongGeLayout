@@ -299,6 +299,7 @@
 				0458B33F1C30F08100BD5680 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
