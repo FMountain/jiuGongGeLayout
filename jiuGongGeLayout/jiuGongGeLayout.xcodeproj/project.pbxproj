@@ -13,6 +13,13 @@
 		0458B3341C30F08100BD5680 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0458B3321C30F08100BD5680 /* Main.storyboard */; };
 		0458B3361C30F08100BD5680 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0458B3351C30F08100BD5680 /* Assets.xcassets */; };
 		0458B3391C30F08100BD5680 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0458B3371C30F08100BD5680 /* LaunchScreen.storyboard */; };
+		0458B3851C312A0500BD5680 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0458B3841C312A0500BD5680 /* main.m */; };
+		0458B3881C312A0500BD5680 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0458B3871C312A0500BD5680 /* AppDelegate.m */; };
+		0458B38B1C312A0500BD5680 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0458B38A1C312A0500BD5680 /* ViewController.m */; };
+		0458B38E1C312A0500BD5680 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0458B38C1C312A0500BD5680 /* Main.storyboard */; };
+		0458B3901C312A0500BD5680 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0458B38F1C312A0500BD5680 /* Assets.xcassets */; };
+		0458B3931C312A0500BD5680 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0458B3911C312A0500BD5680 /* LaunchScreen.storyboard */; };
+		0458B39A1C312DEB00BD5680 /* collectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0458B3991C312DEB00BD5680 /* collectionCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,10 +33,37 @@
 		0458B3351C30F08100BD5680 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0458B3381C30F08100BD5680 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0458B33A1C30F08100BD5680 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0458B3631C31156600BD5680 /* UICollectionView实现九宫格.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UICollectionView实现九宫格.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0458B3811C312A0500BD5680 /* jiuGongge2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jiuGongge2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0458B3841C312A0500BD5680 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0458B3861C312A0500BD5680 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0458B3871C312A0500BD5680 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0458B3891C312A0500BD5680 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0458B38A1C312A0500BD5680 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0458B38D1C312A0500BD5680 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0458B38F1C312A0500BD5680 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0458B3921C312A0500BD5680 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0458B3941C312A0500BD5680 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0458B3981C312DEB00BD5680 /* collectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = collectionCell.h; sourceTree = "<group>"; };
+		0458B3991C312DEB00BD5680 /* collectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = collectionCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		0458B3231C30F08100BD5680 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0458B3601C31156600BD5680 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0458B37E1C312A0500BD5680 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -43,6 +77,7 @@
 			isa = PBXGroup;
 			children = (
 				0458B3281C30F08100BD5680 /* jiuGongGeLayout */,
+				0458B3821C312A0500BD5680 /* jiuGongge2 */,
 				0458B3271C30F08100BD5680 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,6 +86,8 @@
 			isa = PBXGroup;
 			children = (
 				0458B3261C30F08100BD5680 /* jiuGongGeLayout.app */,
+				0458B3631C31156600BD5680 /* UICollectionView实现九宫格.app */,
+				0458B3811C312A0500BD5680 /* jiuGongge2.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -79,6 +116,32 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		0458B3821C312A0500BD5680 /* jiuGongge2 */ = {
+			isa = PBXGroup;
+			children = (
+				0458B3861C312A0500BD5680 /* AppDelegate.h */,
+				0458B3871C312A0500BD5680 /* AppDelegate.m */,
+				0458B3891C312A0500BD5680 /* ViewController.h */,
+				0458B38A1C312A0500BD5680 /* ViewController.m */,
+				0458B38C1C312A0500BD5680 /* Main.storyboard */,
+				0458B3981C312DEB00BD5680 /* collectionCell.h */,
+				0458B3991C312DEB00BD5680 /* collectionCell.m */,
+				0458B38F1C312A0500BD5680 /* Assets.xcassets */,
+				0458B3911C312A0500BD5680 /* LaunchScreen.storyboard */,
+				0458B3941C312A0500BD5680 /* Info.plist */,
+				0458B3831C312A0500BD5680 /* Supporting Files */,
+			);
+			path = jiuGongge2;
+			sourceTree = "<group>";
+		};
+		0458B3831C312A0500BD5680 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0458B3841C312A0500BD5680 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -99,6 +162,40 @@
 			productReference = 0458B3261C30F08100BD5680 /* jiuGongGeLayout.app */;
 			productType = "com.apple.product-type.application";
 		};
+		0458B3621C31156600BD5680 /* UICollectionView实现九宫格 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0458B3771C31156700BD5680 /* Build configuration list for PBXNativeTarget "UICollectionView实现九宫格" */;
+			buildPhases = (
+				0458B35F1C31156600BD5680 /* Sources */,
+				0458B3601C31156600BD5680 /* Frameworks */,
+				0458B3611C31156600BD5680 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UICollectionView实现九宫格";
+			productName = "UICollectionView实现九宫格";
+			productReference = 0458B3631C31156600BD5680 /* UICollectionView实现九宫格.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0458B3801C312A0500BD5680 /* jiuGongge2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0458B3951C312A0500BD5680 /* Build configuration list for PBXNativeTarget "jiuGongge2" */;
+			buildPhases = (
+				0458B37D1C312A0500BD5680 /* Sources */,
+				0458B37E1C312A0500BD5680 /* Frameworks */,
+				0458B37F1C312A0500BD5680 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = jiuGongge2;
+			productName = jiuGongge2;
+			productReference = 0458B3811C312A0500BD5680 /* jiuGongge2.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -109,6 +206,14 @@
 				ORGANIZATIONNAME = A3;
 				TargetAttributes = {
 					0458B3251C30F08100BD5680 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 5M6YDYCJ9V;
+					};
+					0458B3621C31156600BD5680 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 5M6YDYCJ9V;
+					};
+					0458B3801C312A0500BD5680 = {
 						CreatedOnToolsVersion = 7.1;
 						DevelopmentTeam = 5M6YDYCJ9V;
 					};
@@ -128,6 +233,8 @@
 			projectRoot = "";
 			targets = (
 				0458B3251C30F08100BD5680 /* jiuGongGeLayout */,
+				0458B3621C31156600BD5680 /* UICollectionView实现九宫格 */,
+				0458B3801C312A0500BD5680 /* jiuGongge2 */,
 			);
 		};
 /* End PBXProject section */
@@ -143,6 +250,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0458B3611C31156600BD5680 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0458B37F1C312A0500BD5680 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0458B3931C312A0500BD5680 /* LaunchScreen.storyboard in Resources */,
+				0458B3901C312A0500BD5680 /* Assets.xcassets in Resources */,
+				0458B38E1C312A0500BD5680 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -153,6 +277,24 @@
 				0458B3311C30F08100BD5680 /* ViewController.m in Sources */,
 				0458B32E1C30F08100BD5680 /* AppDelegate.m in Sources */,
 				0458B32B1C30F08100BD5680 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0458B35F1C31156600BD5680 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0458B37D1C312A0500BD5680 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0458B38B1C312A0500BD5680 /* ViewController.m in Sources */,
+				0458B3881C312A0500BD5680 /* AppDelegate.m in Sources */,
+				0458B3851C312A0500BD5680 /* main.m in Sources */,
+				0458B39A1C312DEB00BD5680 /* collectionCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,6 +313,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				0458B3381C30F08100BD5680 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		0458B38C1C312A0500BD5680 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0458B38D1C312A0500BD5680 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0458B3911C312A0500BD5680 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0458B3921C312A0500BD5680 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -280,6 +438,50 @@
 			};
 			name = Release;
 		};
+		0458B3781C31156700BD5680 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UICollectionView实现九宫格/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.A3.UICollectionView-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0458B3791C31156700BD5680 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UICollectionView实现九宫格/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.A3.UICollectionView-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0458B3961C312A0500BD5680 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = jiuGongge2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.A3.jiuGongge2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0458B3971C312A0500BD5680 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = jiuGongge2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.A3.jiuGongge2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -300,6 +502,22 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		0458B3771C31156700BD5680 /* Build configuration list for PBXNativeTarget "UICollectionView实现九宫格" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0458B3781C31156700BD5680 /* Debug */,
+				0458B3791C31156700BD5680 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0458B3951C312A0500BD5680 /* Build configuration list for PBXNativeTarget "jiuGongge2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0458B3961C312A0500BD5680 /* Debug */,
+				0458B3971C312A0500BD5680 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
