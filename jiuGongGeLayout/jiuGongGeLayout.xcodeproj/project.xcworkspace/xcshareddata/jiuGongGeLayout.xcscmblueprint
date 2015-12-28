@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "1D445A86403E425F322242111C0C01017C6475A6",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "1D445A86403E425F322242111C0C01017C6475A6" : 0,
+    "94B075E06A9C42756AD900375EA56CB6712CBAE2" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "BD5B1695-E2E3-45BE-96D1-9201DE41C82E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "1D445A86403E425F322242111C0C01017C6475A6" : "jiuGongGeLayout\/",
+    "94B075E06A9C42756AD900375EA56CB6712CBAE2" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "jiuGongGeLayout",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "jiuGongGeLayout\/jiuGongGeLayout.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/FMountain\/jiuGongGeLayout.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1D445A86403E425F322242111C0C01017C6475A6"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/FMountain\/BSBDJ.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "94B075E06A9C42756AD900375EA56CB6712CBAE2"
+    }
+  ]
+}
